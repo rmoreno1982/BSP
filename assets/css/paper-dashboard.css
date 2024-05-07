@@ -1,3 +1,29 @@
+.bg-login{background: #fff;-webkit-box-shadow: 10px 10px 0px -3px rgba(0,0,0,0.03);
+-moz-box-shadow: 10px 10px 0px -3px rgba(0,0,0,0.03);
+box-shadow: 10px 10px 0px -3px rgba(0,0,0,0.03);}
+.text-body-highlight{margin: 0px;color: #140544;
+    /* text-transform: uppercase; */
+    font-size: 1.6rem;
+    font-weight: bold;}
+.text-body-tertiary{}
+.login{background: #f5f7fa;}
+.divider-content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    padding-left: .5rem;
+    padding-right: .5rem;
+    background-color: #fff;
+    
+    font-size: .8rem;
+   
+    white-space: nowrap;
+    font-weight: 700
+}
+
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -1247,15 +1273,9 @@ fieldset[disabled]
   border-bottom-left-radius: 0;
   border-left: 0 none; }
 
-.input-group .form-control:first-child,
-.input-group-btn:first-child > .dropdown-toggle,
-.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
-  border-right: 0 none; }
 
-.input-group .form-control:last-child,
-.input-group-btn:last-child > .dropdown-toggle,
-.input-group-btn:first-child > .btn:not(:first-child) {
-  border-left: 0 none; }
+
+
 
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
   background-color: #E3E3E3;
