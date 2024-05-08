@@ -21,6 +21,7 @@
     <link href="../assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" type="text/css" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="../assets/demo/demo.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://bryntum.com/products/calendar/build/calendar.material.css" data-bryntum-theme>
 </head>
 
 <body class="">
@@ -113,9 +114,54 @@
     <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
     <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="../assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script>
-    <script type="module">
-        import Tags from "https://cdn.jsdelivr.net/gh/lekoala/bootstrap5-tags@master/tags.js";
-        Tags.init("select.prueba");
+    <script>
+        import * as Module from 'https://bryntum.com/products/calendar/build/calendar.module.js';
+        Object.assign(window, Module);
+        // The code above imports module bundle and places all Bryntum classes on window to simplify coding at CodePen
+
+        const calendar = new Calendar({
+            appendTo: document.body,
+
+            // We have a little less width in our context, so reduce the responsive breakpoints
+            responsive: {
+                small: {
+                    when: 480
+                },
+                medium: {
+                    when: 640
+                }
+            },
+
+            // Start life looking at this date
+            date: '2020-05-14',
+
+            // Used to create view titles
+            dateFormat: 'DD MMM YYYY',
+
+            // Load resources (calendars) and events as JSON from this URL
+            crudManager: {
+                transport: {
+                    load: {
+                        url: 'https://bryntum.com/products/calendar/docs/data/Calendar/examples/guides/readme/intro.json', credentials: 'omit'
+                    }
+                },
+                autoLoad: true
+            },
+
+            // All modes are included by default.
+            // Each can be reconfigured from the default by using an object.
+            // Each may be omitted by configuring as false
+            modes: {
+                week: {
+                    dayStartTime: 8
+                },
+                day: {
+                    dayStartTime: 8
+                }
+            },
+
+            height: 700
+        });
     </script>
 </body>
 
