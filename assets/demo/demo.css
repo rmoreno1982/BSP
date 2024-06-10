@@ -189,3 +189,16 @@
   outline: none;
   display: none;
 }
+
+.noti{background: #92ffe6; color: #fff!important; padding: 5px; border-radius:20% ; -webkit-border-radius:20% ; -moz-border-radius:20% ; -ms-border-radius:20% ; -o-border-radius:20% ; }
+.noti a.n{text-decoration: none;color: #2c5047!important;}
+.exit{ background: #f90101; color: #fff!important; padding: 5px; border-radius:20% ; -webkit-border-radius:20% ; -moz-border-radius:20% ; -ms-border-radius:20% ; -o-border-radius:20% ; }
+.usuario{font-size: 1rem;}
+.boton-usuario{  background: #92ffe6; border-radius:15px;padding: 5px 10px; -webkit-border-radius:15px; -moz-border-radius:15px; -ms-border-radius:15px; -o-border-radius:15px; }
+.boton-usuario a.link{color: #2c5047!important; text-decoration: none;}
+
+.card-stats.uno{background: #fb8500;}
+.card-stats.dos{background: #023047;}
+.card-stats.tres{background: #219ebc;}
+.card-stats.cuatro{background: #8ecae6;}
+.card-stats.cinco{background: #d62828;}
