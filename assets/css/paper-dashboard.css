@@ -3268,18 +3268,19 @@ License - nucleoapp.com/license/
   padding: 15px 15px 0px; }
   .card-stats .card-body .numbers {
     text-align: right;
-    font-size: 2em; }
+    font-size: 2.5em;color: #fff; }
     .card-stats .card-body .numbers p {
       margin-bottom: 0; }
     .card-stats .card-body .numbers .card-category {
-      color: #9A9A9A;
+      color: #fff;
       font-size: 16px;
       line-height: 1.4em; }
 
 .card-stats .card-footer {
   padding: 0px 15px 15px; }
   .card-stats .card-footer .stats {
-    color: #9A9A9A; }
+    color: #fff; display: flex; flex-direction: row; justify-content: space-between;}
+    .card-stats .card-footer .stats i{color: #fff;}
   .card-stats .card-footer hr {
     margin-top: 10px;
     margin-bottom: 15px; }
@@ -3288,7 +3289,7 @@ License - nucleoapp.com/license/
   font-size: 3em;
   min-height: 64px; }
   .card-stats .icon-big i {
-    line-height: 59px; }
+    line-height: 59px; color: #fff;}
 
 @media screen and (max-width: 991px) {
     .dropdown{margin: 1rem 0px;}
