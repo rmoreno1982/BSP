@@ -25,76 +25,99 @@
 </head>
 
 <body class="">
-    <div class="wrapper ">
-        <div class="sidebar" data-color="white" data-active-color="danger">
-            <div class="logo"> <a href="https://www.creative-tim.com" class="simple-text logo-mini">
-                    <div class="logo-image-small"> <img src="../assets/img/inspector.jpg" class="img-fluid"> </div>
-                    <!-- <p>CT</p> -->
-                </a> <a href="https://www.creative-tim.com" class="simple-text logo-normal"> BSP Inspector
-                    <!-- <div class="logo-image-big">
+  <div class="wrapper ">
+    <div class="sidebar" data-color="white" data-active-color="danger">
+      <div class="logo"> <a href="https://www.creative-tim.com" class="simple-text logo-mini">
+          <div class="logo-image-small"> <img src="assets/img/inspector.jpg" class="img-fluid"> </div>
+          <!-- <p>CT</p> -->
+        </a> <a href="https://www.creative-tim.com" class="simple-text logo-normal"> BSP Inspector
+          <!-- <div class="logo-image-big">
             <img src="../assets/img/logo-big.png">
           </div> -->
-                </a> </div>
-            <div class="sidebar-wrapper">
-                <ul class="nav">
-                    <li> <a href="../template.html"> <i class="nc-icon nc-bank"></i>
-                            <p>General</p>
-                        </a> </li>
-                    <li class="active "> <a href="#"> <i class="nc-icon nc-diamond"></i>
-                            <p>Parametros</p>
-                        </a> </li>
-                    <li> <a href="login.html"> <i class="nc-icon nc-pin-3"></i>
-                            <p>Login</p>
-                        </a> </li>
-                    <li> <a href="calendario.html"> <i class="nc-icon nc-pin-3"></i>
-                            <p>Calendario</p>
-                        </a> </li>
-                </ul>
+        </a> </div>
+      <div class="sidebar-wrapper">
+        <ul class="nav">
+          <li class="active "> <a href="template.html"> <i class="nc-icon nc-bank"></i>
+              <p>General</p>
+            </a> </li>
+          <li> <a href="examples/parametros.html"> <i class="nc-icon nc-diamond"></i>
+              <p>Parametros</p>
+            </a> </li>
+          <li> <a href="examples/login.html"> <i class="nc-icon nc-pin-3"></i>
+              <p>Login</p>
+            </a> </li>
+          <li> <a href="examples/calendario.html"> <i class="nc-icon nc-pin-3"></i>
+              <p>Calendario</p>
+            </a> </li>
+          <li> <a href="examples/loading.html"> <i class="nc-icon nc-pin-3"></i>
+              <p>Loading</p>
+            </a> </li>
+          <li> <a data-bs-toggle="collapse" href="#submenu" role="button" aria-expanded="false" aria-controls="submenu">
+              <i class="nc-icon nc-pin-3"></i>
+              <p>Sub Menu</p>
+            </a>
+            <div class="collapse submenu" id="submenu">
+              <ul>
+                <li><a href="">Sub menu</a> </li>
+                <li><a href="">Sub menu</a> </li>
+                <li><a href="">Sub menu</a> </li>
+              </ul>
             </div>
-        </div>
-        <div class="main-panel">
-            <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent">
-                <div class="container-fluid">
-                    <div class="navbar-wrapper">
-                        <div class="navbar-toggle">
-                            <button type="button" class="navbar-toggler"> <span class="navbar-toggler-bar bar1"></span>
-                                <span class="navbar-toggler-bar bar2"></span> <span
-                                    class="navbar-toggler-bar bar3"></span> </button>
-                        </div>
-                        <a class="navbar-brand" href="javascript:;">Portal "BSP-Inspector"</a>
-                    </div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation"
-                        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"> <span
-                            class="navbar-toggler-bar navbar-kebab"></span> <span
-                            class="navbar-toggler-bar navbar-kebab"></span>
-                        <span class="navbar-toggler-bar navbar-kebab"></span> </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navigation">
-                        <form>
-                            <div class="input-group no-border">
-                                <input type="text" value="" class="form-control" placeholder="Buscar...">
-                                <div class="input-group-append">
-                                    <div class="input-group-text"> <i class="nc-icon nc-zoom-split"></i> </div>
-                                </div>
-                            </div>
-                        </form>
-                        <div class="dropdown mx-3">
-                            <a href="#" class="dropdown-toggle" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                <i class="nc-icon nc-bell-55"></i> </a>
-                            <ul class="dropdown-menu dropdown-menu-end">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Action two</a></li>
-                                <li><a class="dropdown-item" href="#">Action three</a></li>
-                            </ul>
-                        </div>
-                        <a href="#" role="button">
-                            <i class="fa-regular fa-circle-xmark text-danger"></i> </a>
 
 
-                    </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+
+
+            <div class="usuario"><i class="fa-solid fa-circle-user"></i> Bienvenido: Juan Perez</div>
+
+            <div class="dropdown mx-3 boton-usuario">
+              <a href="#" class="dropdown-toggle link" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cambiar Perfil</a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">Perfil 1</a></li>
+                <li><a class="dropdown-item" href="#">Perfil two</a></li>
+                <li><a class="dropdown-item" href="#">Perfil three</a></li>
+              </ul>
+            </div>
+
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation"
+            aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"> <span
+              class="navbar-toggler-bar navbar-kebab"></span> <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span> </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <form>
+              <div class="input-group no-border">
+                <input type="text" value="" class="form-control" placeholder="Buscar...">
+                <div class="input-group-append">
+                  <div class="input-group-text"> <i class="nc-icon nc-zoom-split"></i> </div>
                 </div>
-            </nav>
+              </div>
+            </form>
+            <div class="dropdown mx-2 noti">
+              <a href="#" class="dropdown-toggle n" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="nc-icon nc-bell-55"></i> </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Action two</a></li>
+                <li><a class="dropdown-item" href="#">Action three</a></li>
+              </ul>
+            </div>
+            <a href="#" role="button" class="exit">
+              <i class="fa-solid fa-right-from-bracket"></i> </a>
+
+
+          </div>
+        </div>
+      </nav>
             <!-- End Navbar -->
             <div class="content">
                 <h1>Calendario</h1>
