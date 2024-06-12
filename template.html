@@ -51,9 +51,20 @@
           <li> <a href="examples/loading.html"> <i class="nc-icon nc-pin-3"></i>
               <p>Loading</p>
             </a> </li>
-          <li> <a href="#"> <i class="nc-icon nc-pin-3"></i>
+          <li> <a data-bs-toggle="collapse" href="#submenu" role="button" aria-expanded="false" aria-controls="submenu">
+              <i class="nc-icon nc-pin-3"></i>
               <p>Sub Menu</p>
-            </a> </li>
+            </a>
+            <div class="collapse submenu" id="submenu">
+              <ul>
+                <li><a href="">Sub menu</a> </li>
+                <li><a href="">Sub menu</a> </li>
+                <li><a href="">Sub menu</a> </li>
+              </ul>
+            </div>
+
+
+          </li>
         </ul>
       </div>
     </div>
