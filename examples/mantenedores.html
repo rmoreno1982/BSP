@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title> BSP </title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+        name='viewport' />
+    <!--     Fonts and icons     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="../assets/css/all.min.css" rel="stylesheet" type="text/css">
+    <!-- CSS Files -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" type="text/css" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="../assets/demo/demo.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="">
+    <div class="wrapper ">
+        <div class="sidebar" data-color="white" data-active-color="danger">
+            <div class="logo"> <a href="#" class="simple-text logo-mini">
+                    <div class="logo-image-small"> <img src="../assets/img/inspector.jpg" class="img-fluid"> </div>
+                    <!-- <p>CT</p> -->
+                </a> <a href="#" class="simple-text logo-normal"> BSP Inspector
+                    <!-- <div class="logo-image-big">
+            <img src="../assets/img/logo-big.png">
+          </div> -->
+                </a> </div>
+            <div class="sidebar-wrapper">
+                <ul class="nav">
+                    <li class="active "> <a href="../template.html"> <i class="nc-icon nc-bank"></i>
+                            <p>General</p>
+                        </a> </li>
+                    <li> <a href="././parametros.html"> <i class="nc-icon nc-diamond"></i>
+                            <p>Parametros</p>
+                        </a> </li>
+                    <li> <a href="././login.html"> <i class="nc-icon nc-pin-3"></i>
+                            <p>Login</p>
+                        </a> </li>
+                    <li> <a href="././calendario.html"> <i class="nc-icon nc-pin-3"></i>
+                            <p>Calendario</p>
+                        </a> </li>
+                    <li> <a href="././loading.html"> <i class="nc-icon nc-pin-3"></i>
+                            <p>Loading</p>
+                        </a> </li>
+                    <li> <a href="././mantenedores.html"> <i class="nc-icon nc-pin-3"></i>
+                            <p>Mantenedores</p>
+                        </a> </li>
+                    <li> <a data-bs-toggle="collapse" href="#submenu" role="button" aria-expanded="false"
+                            aria-controls="submenu">
+                            <i class="nc-icon nc-pin-3"></i>
+                            <p>Sub Menu</p>
+                        </a>
+                        <div class="collapse submenu" id="submenu">
+                            <ul>
+                                <li><a href="">Sub menu</a> </li>
+                                <li><a href="">Sub menu</a> </li>
+                                <li><a href="">Sub menu</a> </li>
+                            </ul>
+                        </div>
+
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-panel">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent">
+                <div class="container-fluid">
+                    <div class="navbar-wrapper">
+
+
+                        <div class="usuario"><i class="fa-solid fa-circle-user"></i> Bienvenido: Juan Perez</div>
+
+                        <div class="dropdown mx-3 boton-usuario">
+                            <a href="#" class="dropdown-toggle link" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Cambiar Perfil</a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="#">Perfil 1</a></li>
+                                <li><a class="dropdown-item" href="#">Perfil two</a></li>
+                                <li><a class="dropdown-item" href="#">Perfil three</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation"
+                        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"> <span
+                            class="navbar-toggler-bar navbar-kebab"></span> <span
+                            class="navbar-toggler-bar navbar-kebab"></span>
+                        <span class="navbar-toggler-bar navbar-kebab"></span> </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                        <form>
+                            <div class="input-group no-border">
+                                <input type="text" value="" class="form-control" placeholder="Buscar...">
+                                <div class="input-group-append">
+                                    <div class="input-group-text"> <i class="nc-icon nc-zoom-split"></i> </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="dropdown mx-2 noti">
+                            <a href="#" class="dropdown-toggle n" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="nc-icon nc-bell-55"></i> </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Action two</a></li>
+                                <li><a class="dropdown-item" href="#">Action three</a></li>
+                            </ul>
+                        </div>
+                        <a href="#" role="button" class="exit">
+                            <i class="fa-solid fa-right-from-bracket"></i> </a>
+
+
+                    </div>
+                </div>
+            </nav>
+            <!-- End Navbar -->
+            <div class="content">
+                <div class="mantenedor">
+                    <h2>Titulo del Mantenedor</h2>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="#">Links 1</a> </li>
+                        <li class="list-group-item"><a href="#">Links 2</a> </li>
+                        <li class="list-group-item"><a href="#">Links 3</a> </li>
+                        <li class="list-group-item"><a href="#">Links 4</a> </li>
+                        <li class="list-group-item"><a href="#">Links 5</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--   Core JS Files   -->
+
+    <script src="../assets/js/core/jquery.min.js"></script>
+    <script src="../assets/js/core/popper.min.js"></script>
+    <script src="../assets/js/core/bootstraps.min.js"></script>
+    <script src="../assets/js/core/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+    <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+    <script src="../assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script>
+    <script type="module">
+        import Tags from "https://cdn.jsdelivr.net/gh/lekoala/bootstrap5-tags@master/tags.js";
+        Tags.init("select.prueba");
+    </script>
+</body>
+
+</html>
