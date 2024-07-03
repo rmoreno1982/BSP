@@ -206,3 +206,11 @@
 .submenu ul{list-style: none;padding: 0;}
 .submenu li{padding: 0px 10px;background: #dddddd;border-bottom: solid 1px #c6c6c6;margin: 0!important;}
 .submenu li a{margin: 0!important;}
+
+.mantenedor{
+  padding: 1em;
+  background: #fff;
+  border-radius:15px;
+}
+.mantenedor h2{font-size: 1.2rem;}
+.mantenedor a{color: #023047;}
