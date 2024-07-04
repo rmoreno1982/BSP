@@ -127,96 +127,504 @@
             </nav>
             <!-- End Navbar -->
             <div class="content">
-                <div class="row row-cols-1 row-cols-sm-2 g-4">
+                <div class="row row-cols-3 g-4">
                     <div class="col">
                         <div class="mantenedor usuarios">
-                            <div class="d-flex justify-content-between">
-                                <h2>Mantenedor de Usuarios</h2>
-                                <a href="#" class="btn boton-usuario"><i class="fa-solid fa-plus"></i> Crear</a>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h2><i class="fa-solid fa-user-group"></i> Mantenedor de Usuarios <span>Crea, edita y
+                                        mantiene los usuarios</span></h2>
+                                <a href="#" class="btn boton-crear"><i class="fa-solid fa-plus"></i> Crear</a>
                             </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item d-flex align-items-center">
-                                    <a href="#" class="flex-grow-1">Usuario 1</a>
-                                    <div class="dropdown">
-                                        <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i
-                                                class="fa-solid fa-ellipsis"></i></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">accion</a></li>
-                                            <li><a class="dropdown-item" href="#">Otra accion</a></li>
-                                            <li><a class="dropdown-item" href="#">Otra accion</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="list-group-item d-flex align-items-center">
-                                    <a href="#" class="flex-grow-1">Usuario 1</a>
-                                    <div class="dropdown">
-                                        <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i
-                                                class="fa-solid fa-ellipsis"></i></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">accion</a></li>
-                                            <li><a class="dropdown-item" href="#">Otra accion</a></li>
-                                            <li><a class="dropdown-item" href="#">Otra accion</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="list-group-item d-flex align-items-center">
-                                    <a href="#" class="flex-grow-1">Usuario 1</a>
-                                    <div class="dropdown">
-                                        <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i
-                                                class="fa-solid fa-ellipsis"></i></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">accion</a></li>
-                                            <li><a class="dropdown-item" href="#">Otra accion</a></li>
-                                            <li><a class="dropdown-item" href="#">Otra accion</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
 
-                            </ul>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <span>Miguel Rodríguez</span>
+                                <span>Inspector</span>
+
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Privilegios</a></li>
+                                        <li><a class="dropdown-item" href="#">Roles</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <span>José Martínez</span>
+                                <span>Inspector</span>
+
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Privilegios</a></li>
+                                        <li><a class="dropdown-item" href="#">Roles</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <span>Carlos López</span>
+                                <span>Redactor</span>
+
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Privilegios</a></li>
+                                        <li><a class="dropdown-item" href="#">Roles</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <span>Pedro Fernández</span>
+                                <span>Inspector</span>
+
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Privilegios</a></li>
+                                        <li><a class="dropdown-item" href="#">Roles</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <span>Juan García</span>
+                                <span>Analista</span>
+
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Privilegios</a></li>
+                                        <li><a class="dropdown-item" href="#">Roles</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+
+                            <a href="#" class="mt-3 btn-mas d-flex align-items-center justify-content-end">Ver todos los
+                                usuarios <i class="fa-solid fa-angle-right"></i> <span
+                                    class="badge text-bg-danger ms-2">33</span></a>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="mantenedor">
-                            <h2>Titulo del Mantenedor</h2>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><a href="#">Links 1</a> </li>
-                                <li class="list-group-item"><a href="#">Links 2</a> </li>
-                                <li class="list-group-item"><a href="#">Links 3</a> </li>
-                                <li class="list-group-item"><a href="#">Links 4</a> </li>
-                                <li class="list-group-item"><a href="#">Links 5</a> </li>
-                            </ul>
+                        <div class="mantenedor flujos">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h2><i class="fa-solid fa-sitemap"></i> Mantenedor de Flujos <span>Crea, edita y
+                                        mantiene los flujos</span></h2>
+                                <a href="#" class="btn boton-crear"><i class="fa-solid fa-plus"></i> Crear</a>
+                            </div>
+
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <a href="#" class="flex-grow-1">Flujo 1</a>
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <a href="#" class="flex-grow-1">Flujo 2</a>
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <a href="#" class="flex-grow-1">Flujo 3</a>
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <a href="#" class="flex-grow-1">Flujo 4</a>
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <a href="#" class="flex-grow-1">Flujo 5</a>
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+
+                            <a href="#" class="mt-3 btn-mas d-flex align-items-center justify-content-end">Ver todos los
+                                flujos <i class="fa-solid fa-angle-right"></i> <span
+                                    class="badge text-bg-danger ms-2">4</span></a>
                         </div>
                     </div>
 
                     <div class="col">
-                        <div class="mantenedor">
-                            <h2>Titulo del Mantenedor</h2>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><a href="#">Links 1</a> </li>
-                                <li class="list-group-item"><a href="#">Links 2</a> </li>
-                                <li class="list-group-item"><a href="#">Links 3</a> </li>
-                                <li class="list-group-item"><a href="#">Links 4</a> </li>
-                                <li class="list-group-item"><a href="#">Links 5</a> </li>
-                            </ul>
+                        <div class="mantenedor paginas">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h2><i class="fa-solid fa-layer-group"></i> Mantenedor de Paginas <span>Crea, edita y
+                                        mantiene los paginas</span></h2>
+                                <a href="#" class="btn boton-crear"><i class="fa-solid fa-plus"></i> Crear</a>
+                            </div>
+
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <a href="#" class="flex-grow-1">Pagina 1</a>
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <a href="#" class="flex-grow-1">Pagina 2</a>
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <a href="#" class="flex-grow-1">Pagina 3</a>
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <a href="#" class="flex-grow-1">Pagina 4</a>
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <a href="#" class="flex-grow-1">Pagina 5</a>
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+
+                            <a href="#" class="mt-3 btn-mas d-flex align-items-center justify-content-end">Ver todos las
+                                paginas <i class="fa-solid fa-angle-right"></i> <span
+                                    class="badge text-bg-danger ms-2">22</span></a>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="mantenedor documentos">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h2><i class="fa-solid fa-file-lines"></i> Mantenedor de Documentos <span>Crea,
+                                        edita
+                                        y
+                                        mantiene los documentos</span></h2>
+                                <a href="#" class="btn boton-crear"><i class="fa-solid fa-plus"></i> Crear</a>
+                            </div>
+
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <a href="#" class="flex-grow-1">Documento 1</a>
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i>Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <a href="#" class="flex-grow-1">Documento 2</a>
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <a href="#" class="flex-grow-1">Documento 3</a>
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <a href="#" class="flex-grow-1">Documento 4</a>
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <a href="#" class="flex-grow-1">Documento 5</a>
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+
+                            <a href="#" class="mt-3 btn-mas d-flex align-items-center justify-content-end">Ver todos
+                                los
+                                documentos <i class="fa-solid fa-angle-right"></i> <span
+                                    class="badge text-bg-danger ms-2">10</span></a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mantenedor formularios">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h2 class="position-relative"><i class="fa-regular fa-rectangle-list"></i> Mantenedor de
+                                    Formularios
+                                    <span>Crea,
+                                        edita
+                                        y
+                                        mantiene los formularios</span>
+                                </h2>
+                                <a href="#" class="btn boton-crear"><i class="fa-solid fa-plus"></i> Crear</a>
+                            </div>
+
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <a href="#" class="flex-grow-1">Formulario 1</a>
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <a href="#" class="flex-grow-1">Formulario 2</a>
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <a href="#" class="flex-grow-1">Formulario 3</a>
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <a href="#" class="flex-grow-1">Formulario 4</a>
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lista d-flex align-items-center justify-content-between">
+                                <a href="#" class="flex-grow-1">Formulario 5</a>
+                                <div class="dropdown">
+                                    <a href="#" class="boton-opciones" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="fa-solid fa-ellipsis"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                    class="fa-solid fa-trash-can"></i> Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+
+                            <a href="#" class="mt-3 btn-mas d-flex align-items-center justify-content-end"> Ver todos
+                                los
+                                formularios <i class="fa-solid fa-angle-right"></i> <span
+                                    class="badge text-bg-danger ms-2">4</span></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!--   Core JS Files   -->
+        <!--   Core JS Files   -->
 
-    <script src="../assets/js/core/jquery.min.js"></script>
-    <script src="../assets/js/core/popper.min.js"></script>
-    <script src="../assets/js/core/bootstraps.min.js"></script>
-    <script src="../assets/js/core/bootstrap.bundle.min.js"></script>
-    <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-    <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
-    <script src="../assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script>
-    <script type="module">
-        import Tags from "https://cdn.jsdelivr.net/gh/lekoala/bootstrap5-tags@master/tags.js";
-        Tags.init("select.prueba");
-    </script>
+        <script src="../assets/js/core/jquery.min.js"></script>
+        <script src="../assets/js/core/popper.min.js"></script>
+        <script src="../assets/js/core/bootstraps.min.js"></script>
+        <script src="../assets/js/core/bootstrap.bundle.min.js"></script>
+        <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+        <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+        <script src="../assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script>
+        <script type="module">
+            import Tags from "https://cdn.jsdelivr.net/gh/lekoala/bootstrap5-tags@master/tags.js";
+            Tags.init("select.prueba");
+        </script>
 </body>
 
 </html>
