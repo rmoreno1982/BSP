@@ -1759,8 +1759,9 @@ body {
   .navbar .button-dropdown .navbar-toggler-bar:nth-child(2) {
     width: 17px; }
   .navbar.navbar-transparent {
-    background-color: transparent !important;
+    background-color: #354147!important;
     box-shadow: none;
+    color: #fff;
     border-bottom: 1px solid #ddd; }
     .navbar.navbar-transparent a:not(.dropdown-item):not(.btn) {
       color: #66615B; }
