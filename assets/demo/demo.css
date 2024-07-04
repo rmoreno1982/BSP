@@ -211,6 +211,8 @@
   padding: 1em;
   background: #fff;
   border-radius:15px;
+  width: 100%;
 }
 .mantenedor h2{font-size: 1.2rem;}
 .mantenedor a{color: #023047;}
+.mantenedor a:hover{color: #470202;}
