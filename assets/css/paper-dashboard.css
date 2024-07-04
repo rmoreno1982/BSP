@@ -2684,8 +2684,8 @@ License - nucleoapp.com/license/
   .off-canvas-sidebar[data-color="white"] .nav li a[data-toggle="collapse"] i,
   .off-canvas-sidebar[data-color="white"] .nav li a[data-toggle="collapse"] ~ div > ul > li .sidebar-mini-icon,
   .off-canvas-sidebar[data-color="white"] .nav li a[data-toggle="collapse"] ~ div > ul > li > a {
-    color: #66615B;
-    opacity: .7; }
+    color: #354148;
+    opacity: .9; }
   .sidebar[data-color="white"] .nav li:hover:not(.active) > a,
   .sidebar[data-color="white"] .nav li:focus:not(.active) > a,
   .off-canvas-sidebar[data-color="white"] .nav li:hover:not(.active) > a,
