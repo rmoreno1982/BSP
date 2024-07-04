@@ -213,6 +213,6 @@
   border-radius:15px;
   width: 100%;
 }
-.mantenedor h2{font-size: 1.2rem;}
+.mantenedor h2{font-size: 1.2rem;margin: 0.7rem;}
 .mantenedor a{color: #023047;}
 .mantenedor a:hover{color: #470202;}
