@@ -250,6 +250,6 @@
 .wizzard .workflow-tabs .nav-link{color: #093956; background: none; border-bottom: 1px solid #437996; border-radius: 0; }
 .wizzard .workflow-tabs .nav-link.active{border-bottom: 5px solid #5cb02f;font-weight: 600;}
 .acciones .btn{text-wrap: nowrap;}
-.wizzard .nav a i{margin-right: 20px;}
+.wizzard .nav a i{margin-right: 20px;font-size: 1.5em;}
 .wizzard .menu-wizzard .nav-link{text-wrap: nowrap; text-transform: uppercase; font-size: 0.8rem;color: #000!important; background-color:#eff9ff; margin-bottom: 4px; border-radius:0px ; -webkit-border-radius:0px ; -moz-border-radius:0px ; -ms-border-radius:0px ; -o-border-radius:0px ; }
 .wizzard .menu-wizzard .nav-link.active{color: #000!important;background-color:#a7d5ec;font-weight: 600;border-right: 4px solid #427996;}
