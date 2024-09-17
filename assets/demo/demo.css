@@ -239,3 +239,17 @@
 .mantenedor a:hover{color: #000;}
 .mantenedor .lista{border-bottom:1px solid #e4e8f0;padding: 9px 7px;}
 .mantenedor .list-group-item span{min-width: 250px;}
+
+.wizzard{background: #fff;padding: 1em;}
+.wizzard h2{font-size: 1.2rem; margin:0.5em 0 1.4em 0; padding: 0px;font-weight: 500;}
+.titulos{border-bottom: 1px solid #e5e5e5; padding-bottom: 10px;margin-bottom: 15px;}
+.titulos h1{font-size: 2rem; margin: 0; padding: 0px; border-right: 2px solid #000; padding-right: 10px;}
+.titulos small{font-size: .8rem;display: block; text-transform: lowercase; margin: 0 10px; padding: 0px;}
+
+
+.wizzard .workflow-tabs .nav-link{color: #093956; background: none; border-bottom: 1px solid #437996; border-radius: 0; }
+.wizzard .workflow-tabs .nav-link.active{border-bottom: 5px solid #5cb02f;font-weight: 600;}
+.acciones .btn{text-wrap: nowrap;}
+.wizzard .nav a i{margin-right: 20px;}
+.wizzard .menu-wizzard .nav-link{text-wrap: nowrap; text-transform: uppercase; font-size: 0.8rem;color: #000!important; background-color:#eff9ff; margin-bottom: 4px; border-radius:0px ; -webkit-border-radius:0px ; -moz-border-radius:0px ; -ms-border-radius:0px ; -o-border-radius:0px ; }
+.wizzard .menu-wizzard .nav-link.active{color: #000!important;background-color:#a7d5ec;font-weight: 600;border-right: 4px solid #427996;}
