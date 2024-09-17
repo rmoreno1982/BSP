@@ -190,7 +190,7 @@
   display: none;
 }
 
-.noti{displa:table;background: #92ffe6; color: #fff!important; padding: 5px; border-radius:20% ; -webkit-border-radius:20% ; -moz-border-radius:20% ; -ms-border-radius:20% ; -o-border-radius:20% ; }
+.noti{display:table;background: #92ffe6; color: #fff!important; padding: 5px; border-radius:20% ; -webkit-border-radius:20% ; -moz-border-radius:20% ; -ms-border-radius:20% ; -o-border-radius:20% ; }
 .noti a.n{text-decoration: none;color: #2c5047!important;}
 .exit{ background: #f90101; color: #fff!important; padding: 5px; border-radius:20% ; -webkit-border-radius:20% ; -moz-border-radius:20% ; -ms-border-radius:20% ; -o-border-radius:20% ; }
 .usuario{font-size: 1rem;}
