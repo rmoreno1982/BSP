@@ -253,3 +253,15 @@
 .wizzard .nav a i{margin-right: 20px;font-size: 1.5em;}
 .wizzard .menu-wizzard .nav-link{text-wrap: nowrap; text-transform: uppercase; font-size: 0.8rem;color: #000!important; background-color:#eff9ff; margin-bottom: 4px; border-radius:0px ; -webkit-border-radius:0px ; -moz-border-radius:0px ; -ms-border-radius:0px ; -o-border-radius:0px ; }
 .wizzard .menu-wizzard .nav-link.active{color: #000!important;background-color:#a7d5ec;font-weight: 600;border-right: 4px solid #427996;}
+
+.ir{color: #fff;text-decoration: none;}
+.ir:hover{color: #810000;}
+
+.alertas{background: #fff;}
+.alert-heading{background: #d62828;padding: 0.6rem; color: #fff;margin: 0px;}
+.alertas ul{list-style: none;margin:10px 0px; padding: 0px;}
+.alertas ul li{margin: 0px; padding: 0px; border-bottom:1px solid #ededed;font-size: 1rem;}
+.alertas-dia{background: #ededed;font-size: 0.8rem; padding: 10px; margin:0;}
+.alertas ul a{text-decoration: none; color: #000;display: block;padding: 10px;}
+.alertas ul li a:hover{background: #ef8157;color: #fff;}
+.alertas ul li:hover{background: #ef8157;color: #fff;}
